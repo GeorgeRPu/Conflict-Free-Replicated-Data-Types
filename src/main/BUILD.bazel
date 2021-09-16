@@ -1,0 +1,5 @@
+cc_binary(
+    name = "Main",
+    srcs = ["main.cc"],
+    deps = ["//src/lib:Lib"]
+)
